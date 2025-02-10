@@ -5,7 +5,7 @@
 [![Vite](https://img.shields.io/badge/Vite-latest-brightgreen)](https://vitejs.dev/)  
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-📸 [Foto do App](https://github.com/leveinvestimentos/mobile-challenge/blob/main/appleve.png)  
+📸<img src="https://github.com/leveinvestimentos/mobile-challenge/blob/main/appleve.png" align="right">  
 
 ---
 
