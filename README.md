@@ -126,6 +126,6 @@ Se encontrar alguma vulnerabilidade, entre em contato com a equipe de desenvolvi
 
 Caso precise de ajuda, utilize os seguintes canais:  
 📩 **Email:** [contato@leve.app.br](mailto:contato@leve.app.br)  
-🐛 **Issues:** [GitHub Issues](https://github.com/seu-usuario/leve-invest-web/issues)  
+🐛 **Issues:** [GitHub Issues](https://github.com/leveinvestimentos/mobile-challenge/issues)  
 
 ---
