@@ -1,47 +1,146 @@
-# Leve Mobile Challenge
+# 🚀 Leve Invest App
 
-Este teste tem como objetivo conhecer um pouco mais como você programa, e como você vai se organizar para montar um pequeno app.
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)  
+[![React](https://img.shields.io/badge/React-18.3.1-blue)](https://reactjs.org/)  
+[![Vite](https://img.shields.io/badge/Vite-latest-brightgreen)](https://vitejs.dev/)  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-## 1. O que você precisa fazer?
+📸 **[Adicione aqui um screenshot ou GIF da aplicação funcionando]**  
 
-Esperamos que você desenvolva um app que se conecte ao socket fornecido pela exchange Binance e realize as seguintes tarefas:
+---
 
-    - Listagem de todos ativos em real time com paginação.
-    - Listagem dos seguinte pares: BTCUSD, ETHUSD, DOGEUSD, SHIBUSD e XMRUSD.
-    - Marcação de ativos favoritos.
-    - O usuário pode escolher entre visualização em BRL ou USD (Você necessitará realizar a conversão e a mesma deve surtir efeito no app como um todo).
+## 💡 Sobre a Leve Invest
 
-### 1.1 Linguagens
-Você deverá utilizar as linguagens/tecnologias abaixo descritas:
+A **Leve Invest** é uma fintech inovadora focada em tornar o investimento mais acessível e intuitivo para todos. Nossa missão é democratizar o acesso ao mercado financeiro por meio de tecnologia de ponta e uma experiência de usuário excepcional.
 
-- React Native.
-- Firebase.
+---
 
-## 2. Observações
+## 📌 Objetivo do Projeto
 
-- Não se esqueça de criar um README explicando como faremos para rodar sua aplicação e demais informações que ache necessário.
-- Não deixe de atentar-se a boas práticas de design pois também avaliaremos a interface.
+Este projeto consiste em uma plataforma de investimentos que permite aos usuários acompanhar ativos em tempo real, com suporte para diversas criptomoedas e funcionalidades avançadas.
 
-## 3. Seria legal se você utilizasse
+### ✨ Funcionalidades Principais
 
-- Atomic Design.
-- Testes de Renderização.
+- ✅ **📊 Listagem em tempo real** de criptomoedas com paginação.
+- ✅ **💱 Suporte aos pares de trading:** LEVE, BTC, BNB, ETH, BCH e Real Digital.
+- ✅ **⭐ Marcação de favoritos personalizada.**
+- ✅ **🔄 Conversão dinâmica** entre **BRL e USDT**.
 
-## 4. Método de avaliação
-Avaliaremos seu desafio de código com base em alguns atributos de qualidade do sistema. Alguns nós consideramos indispensáveis, como correção, e serão avaliados em uma abordagem binária (funciona / segue ou não). Os outros, por não serem objetivos, não poderão sozinhos desabonar seu desafio. Estes são todos os atributos de qualidade que esperamos que você aborde:
+---
 
-- Correção: Seu código deve seguir todos os requisitos apresentados no item 1 e seus subsequentes até 1.1.
-- Desempenho: Quanto mais dados você puder lidar e mais rápido você consultar, melhor.
-- Testabilidade: Quão bem testado seu código é e quão fácil é adicionar novos testes ao seu código.
-- Capacidade de manutenção: Como é fácil adicionar recursos extras ao seu código.
-- Separação de Conceitos: (https://en.wikipedia.org/wiki/Separation_of_concerns).
+## 🛠 Stack Tecnológica
 
+### **Frontend**
+- 🟦 [React 18](https://reactjs.org/) - Biblioteca principal para UI.
+- 🟦 [TypeScript](https://www.typescriptlang.org/) - Tipagem estática.
+- ⚡ [Vite](https://vitejs.dev/) - Build tool moderna para desempenho otimizado.
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) - Estilização eficiente.
+- 🏗️ [Shadcn/UI](https://ui.shadcn.com/) - Componentes reutilizáveis de UI.
+- 🎞️ [Framer Motion](https://www.framer.com/motion/) - Animações fluidas.
+- 🎨 [Lucide React](https://lucide.dev/) - Ícones modernos.
 
-## 5. Como enviar?
-Crie um repositório público no Github e envie um e-mail para ti@leve.app.br com o link do mesmo.
+### **Estado & Data Fetching**
+- 🔄 [React Query](https://tanstack.com/query/latest) - Gerenciamento de estado do servidor.
+- 🌎 [React Context](https://reactjs.org/docs/context.html) - Estado global.
+- 📡 **Atualizações em tempo real** via WebSockets e Supabase Realtime.
 
-## 6. Dúvidas?
-Assunto: Leve Mobile Challenge
-E-mail: ti@leve.app.br
+### **Backend (Supabase)**
+- 🔐 Autenticação segura.
+- 🗄️ Banco de dados **PostgreSQL**.
+- 🗂️ **Storage** para arquivos.
+- ⚡ **Edge Functions** para lógica backend serverless.
+- 🔒 **Row Level Security (RLS)** para proteção de dados.
 
-Boa sorte! :)
+---
+
+## 🚀 Como Rodar o Projeto
+
+Antes de começar, certifique-se de ter instalado:
+- [Node.js](https://nodejs.org/) (>= 18.x recomendado).
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/).
+- Conta no [Supabase](https://supabase.com/).
+
+### **Passos para instalação e execução**
+
+1️⃣ **Instale as dependências e configure o ambiente:**
+```sh
+npm install
+# ou
+yarn
+
+# Crie um arquivo .env na raiz do projeto e adicione as credenciais:
+echo "VITE_SUPABASE_URL=SEU_SUPABASE_URL" > .env
+echo "VITE_SUPABASE_ANON_KEY=SEU_SUPABASE_ANON_KEY" >> .env
+echo "VITE_WEBSOCKET_URL=wss://exemplo.com/ws" >> .env
+
+2️⃣ Inicie o servidor de desenvolvimento:
+
+sh
+Copiar
+npm run dev
+# ou
+yarn dev
+
+3️⃣ Crie o build para produção:
+
+sh
+Copiar
+npm run build
+# ou
+yarn build
+4️⃣ Rode os testes:
+
+sh
+Copiar
+npm run test
+# ou
+yarn test
+
+📂 Estrutura do Projeto
+bash
+Copiar
+leve-invest-app/
+├── src/
+│   ├── components/    # Componentes reutilizáveis
+│   ├── pages/         # Páginas principais
+│   ├── hooks/         # Hooks customizados
+│   ├── services/      # Integrações (API, WebSocket)
+│   ├── utils/         # Funções auxiliares
+│   ├── context/       # Contextos globais
+│   ├── assets/        # Ícones e imagens
+├── tests/             # Testes automatizados
+├── public/            # Arquivos estáticos
+├── .gitignore
+├── package.json
+├── vite.config.ts
+└── README.md
+
+🤝 Contribuição
+Se deseja contribuir, siga estes passos:
+
+sh
+Copiar
+# 1️⃣ Crie uma branch para sua feature
+git checkout -b feature/minha-feature
+
+# 2️⃣ Implemente suas alterações e faça commit
+git commit -m "feat: adiciona nova funcionalidade X"
+
+# 3️⃣ Envie suas alterações para o GitHub
+git push origin feature/minha-feature
+
+4️⃣ Abra um Pull Request.
+
+Lembrete: Antes de enviar sua PR, verifique se os testes estão passando!
+
+🔒 Segurança
+Se encontrar alguma vulnerabilidade, entre em contato com a equipe de desenvolvimento.
+
+💬 Suporte
+Caso precise de ajuda, utilize os seguintes canais:
+
+📩 Email: contato@leve.app.br
+🐛 Issues: GitHub Issues
+
+📝 Licença
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
