@@ -5,7 +5,7 @@
 [![Vite](https://img.shields.io/badge/Vite-latest-brightgreen)](https://vitejs.dev/)  
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-📸 **[Foto do App](https://github.com/leveinvestimentos/mobile-challenge/blob/main/appleve.png) **  
+📸 [Foto do App](https://github.com/leveinvestimentos/mobile-challenge/blob/main/appleve.png)  
 
 ---
 
@@ -129,11 +129,3 @@ Caso precise de ajuda, utilize os seguintes canais:
 🐛 **Issues:** [GitHub Issues](https://github.com/seu-usuario/leve-invest-web/issues)  
 
 ---
-
-## 📝 Licença  
-
-Este projeto está sob a licença **MIT**. Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.  
-
----
-
-🔥 **Agora está 100% correto para copiar e colar no GitHub!** 🚀💪
