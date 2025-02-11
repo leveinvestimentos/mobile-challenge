@@ -1,3 +1,8 @@
+# Caminho do arquivo README público
+file_path_public = "/mnt/data/README_Public.md"
+
+# Conteúdo do README público
+readme_public_content = """\
 # 🚀 Leve Invest Web
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)  
@@ -47,85 +52,3 @@ yarn
 echo "VITE_SUPABASE_URL=SEU_SUPABASE_URL" > .env
 echo "VITE_SUPABASE_ANON_KEY=SEU_SUPABASE_ANON_KEY" >> .env
 echo "VITE_WEBSOCKET_URL=wss://exemplo.com/ws" >> .env
-```
-🔒 **Importante:** O arquivo `.env` não deve ser compartilhado! Ele deve estar listado no `.gitignore`.  
-
-2️⃣ **Inicie o servidor:**  
-```sh
-npm run dev
-# ou
-yarn dev
-```
-
-3️⃣ **Crie o build para produção:**  
-```sh
-npm run build
-# ou
-yarn build
-```
-
-4️⃣ **Rode os testes:**  
-```sh
-npm run test
-# ou
-yarn test
-```
-
----
-
-## 📂 Estrutura do Projeto  
-
-```bash
-📦 leve-invest-web/
-├── 📂 src/
-│   ├── 📂 components/    # Componentes reutilizáveis
-│   ├── 📂 pages/         # Páginas principais
-│   ├── 📂 hooks/         # Hooks customizados
-│   ├── 📂 services/      # Integrações (API, WebSocket)
-│   ├── 📂 utils/         # Funções auxiliares
-│   ├── 📂 context/       # Contextos globais
-│   ├── 📂 assets/        # Ícones e imagens
-├── 📂 tests/             # Testes automatizados
-├── 📂 public/            # Arquivos estáticos
-├── 📜 .gitignore
-├── 📜 package.json
-├── 📜 vite.config.ts
-└── 📜 README.md
-```
-
----
-
-## 🤝 Contribuição  
-
-Se deseja contribuir, siga estes passos:  
-
-```sh
-# 1️⃣ Crie uma branch para sua feature
-git checkout -b feature/minha-feature
-
-# 2️⃣ Implemente suas alterações e faça commit
-git commit -m "feat: adiciona nova funcionalidade X"
-
-# 3️⃣ Envie suas alterações para o GitHub
-git push origin feature/minha-feature
-```
-
-4️⃣ **Abra um Pull Request.**  
-
-📌 **Lembre-se:** Antes de enviar sua PR, verifique se os testes estão passando!  
-
----
-
-## 🔒 Segurança  
-
-Se encontrar alguma vulnerabilidade, entre em contato com a equipe de desenvolvimento.  
-
----
-
-## 💬 Suporte  
-
-Caso precise de ajuda, utilize os seguintes canais:  
-📩 **Email:** [contato@leve.app.br](mailto:contato@leve.app.br)  
-🐛 **Issues:** [GitHub Issues](https://github.com/leveinvestimentos/mobile-challenge/issues)  
-
----
